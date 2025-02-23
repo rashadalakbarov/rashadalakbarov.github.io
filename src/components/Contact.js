@@ -38,7 +38,12 @@ const Contact = () => {
         <div className="contact__content">
           <h3 className="contact__title">Write me your project</h3>
 
-          <form className="contact__form" ref={form} onSubmit={sendEmail}>
+          <form
+            className="contact__form"
+            ref={form}
+            onSubmit={sendEmail}
+            autoComplete="off"
+          >
             <div className="contact__form-div">
               <label className="contact__form-tag">Name</label>
               <input

@@ -27,11 +27,11 @@ export const dataSkill = [
             level: "basic",
           },
           {
-            skill: "Git",
+            skill: "Tailwind",
             level: "basic",
           },
           {
-            skill: "React",
+            skill: "Git",
             level: "basic",
           },
         ],
@@ -71,6 +71,56 @@ export const dataSkill = [
           },
           {
             skill: "SQL",
+            level: "intermediate",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: "Library",
+    info: [
+      {
+        locate: "left",
+        infor: [
+          {
+            skill: "React",
+            level: "basic",
+          },
+        ],
+      },
+      {
+        locate: "right",
+        infor: [
+          {
+            skill: "MySQL",
+            level: "intermediate",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: "Database",
+    info: [
+      {
+        locate: "left",
+        infor: [
+          {
+            skill: "MySQL",
+            level: "intermediate",
+          },
+          {
+            skill: "SQL",
+            level: "intermediate",
+          },
+        ],
+      },
+      {
+        locate: "right",
+        infor: [
+          {
+            skill: "Firebase",
             level: "intermediate",
           },
         ],

@@ -87,6 +87,7 @@
   padding-left: 5.4rem;
   font-weight: var(--font-normal);
   margin-bottom: var(--mb-1);
+  height: 25px;
 }
 
 .home__subtitle::before {
