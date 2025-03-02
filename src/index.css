@@ -465,7 +465,7 @@
 }
 
 .work__container {
-  grid-template-columns: repeat(2, max-content);
+  grid-template-columns: repeat(3, max-content);
   gap: 3rem;
   justify-content: center;
 }
@@ -825,6 +825,7 @@
 
   /* portfolio */
   .work__container {
+    grid-template-columns: repeat(2, max-content);
     gap: 1.25rem;
   }
 
