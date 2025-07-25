@@ -3,6 +3,7 @@ import ecora_home from "../assets/projects/ecora_home.png";
 import guiz_time from "../assets/projects/guiz-time.png";
 import elshadoglu_realestate from "../assets/projects/elshadoglu_realestate.png";
 import todo_redux from "../assets/projects/todo_redux.png";
+import react_shopping_cart from "../assets/projects/react-shopping-cart.png";
 
 export const projectsData = [
   {
@@ -39,6 +40,13 @@ export const projectsData = [
     title: "ToDo Redux",
     category: "web",
     link: "https://mytodo-readux.netlify.app/",
+  },
+  {
+    id: 5,
+    image: react_shopping_cart,
+    title: "React Shopping Cart",
+    category: "web",
+    link: "https://demo-react-shoppingcart.netlify.app/",
   },
 ];
 
